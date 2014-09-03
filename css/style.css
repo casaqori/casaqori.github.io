@@ -606,7 +606,7 @@ footer {
 ========================================================================= */
 dl {
 	display: block;
-	width: 174px;
+	width: 272px;
 }
 dd span {
 	float: right;
@@ -621,7 +621,7 @@ dl strong {
 
 iframe {
 	width: 100%;
-	height: 243px;
+	height: 410px;
 	margin:0;
 }
 
