@@ -63,7 +63,7 @@ ul.sf-menu li li li.sfHover ul {
 	-webkit-text-stroke:1px rgba(249,249,249,0.6);
 }
 .sf-menu > li:hover, .sf-menu > li.active, .sf-menu > li.sfHover {
-	text-shadow: rgba(0,0,0,0.5) 0 1px 1px;
+	text-shadow: rgba(0,0,0,0.5) 0 2px 0;
 	border-top: 1px solid #87c786;
 	background: url('../images/menu-hover.jpg');
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);

@@ -1,4 +1,10 @@
-@import"../css/reset.css";	@import"../css/skeleton.css";	@import"../css/superfish.css";	@import"../css/forms.css"; @import"../css/flexslider.css"; @import"../css/prettyPhoto.css";
+@import"../css/reset.css";
+@import"../css/skeleton.css";
+@import"../css/superfish.css";
+@import"../css/forms.css";
+@import"../css/flexslider.css";
+@import"../css/prettyPhoto.css";
+
 body {
 	background:#14292b;
 	font:12px/21px Arial, sans-serif;
@@ -800,3 +806,52 @@ iframe {
 }
 /* Project specifics =========================================================== */
 /* Pour some CSS below ========================================================= */
+#note {
+    position: absolute;
+    z-index: 6001;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fde073; /*#5e9f5d*/
+    text-align: center;
+    line-height: 2.5;
+    overflow: hidden; 
+    -webkit-box-shadow: 0 0 5px black;
+    -moz-box-shadow:    0 0 5px black;
+    box-shadow:         0 0 5px black;
+}
+#note.show {
+    -webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    transform: translateY(-50px);
+    -webkit-animation: slideDown 5.5s 1.0s 1 ease forwards;
+    -moz-animation: slideDown 5.5s 1.0s 1 ease forwards;
+    animation: slideDown 5.5s 1.0s 1 ease forwards;
+}
+
+#close {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    text-indent: -9999px;
+    background: url(../images/close.png);
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+    
+@-webkit-keyframes slideDown {
+    0%, 100% { -webkit-transform: translateY(-50px); }
+    10%, 90% { -webkit-transform: translateY(0px); }
+}
+
+@-moz-keyframes slideDown {
+    0%, 100% { -moz-transform: translateY(-50px); }
+    10%, 90% { -moz-transform: translateY(0px); }
+}
+
+@keyframes slideDown {
+    0%, 100% { transform: translateY(-50px); }
+    10%, 90% { transform: translateY(0px); }
+}

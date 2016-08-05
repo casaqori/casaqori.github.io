@@ -1,1 +1,1 @@
-sitemap: http://http://casaqori.github.io/sitemap.xml
+sitemap: http://casaqori.github.io/donirineo/sitemap.xml
