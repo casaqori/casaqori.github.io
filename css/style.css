@@ -49,7 +49,7 @@ h2 {
 strong, strong a {
 	font: italic 18px/21px 'Share', cursive;
 	color:#aa7660;
-	-webkit-text-stroke:1px rgba(249,249,249,0.6);
+	/*-webkit-text-stroke:1px rgba(249,249,249,0.6);*/
 }
 	strong a:hover {
 		color:#548c53;
@@ -236,8 +236,8 @@ nav {
 	padding-left:18px;
 }
 .block-4 {
-	padding-left:18px;
-	padding-right:6px;
+	/*padding-left:18px;*/
+	/*padding-right:6px;*/
 }
 	.block-4 span {display:block;}
 	
@@ -344,7 +344,8 @@ nav {
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		border-radius: 6px;
-		padding: 22px 6px 21px 13px;
+		/*padding: 22px 6px 21px 13px;*/
+        padding: 6px 3px 10px 3px;
 		-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.3);
 		-moz-box-shadow: 0 0 2px rgba(0,0,0,0.3);
 		box-shadow: 0 0 2px rgba(0,0,0,0.3);
@@ -386,9 +387,13 @@ nav {
 	padding-left:18px;
 }
 .col-1 {
-	width:380px;
+    /*width:380px;*/
+	width:410px;
 	float:left;
 	margin-right:19px;
+}
+.rt-block-0 {
+	display:none;
 }
 .rt-block-1 {
 	display:block;
@@ -403,12 +408,14 @@ nav {
 	margin-right:20px;
 }
 .col-2 {
-	width:380px;
+	/*width:380px;*/
+    width:410px;
 	float:left;
-    margin-left:19px;
+    /*margin-left:19px;*/
 }
 .col-3 {
-	width:220px;
+	/*width:220px;*/
+    width:410px;
 	text-align:center;
 	float:left;
 	margin-bottom:36px;
@@ -461,7 +468,7 @@ nav {
 	color:#60a895;
 	font: italic 11px/21px 'Share', cursive;
 	text-transform: uppercase;
-	-webkit-text-stroke:1px rgba(249,249,249,0.6);
+	/*-webkit-text-stroke:1px rgba(249,249,249,0.6);*/
 }
 	.text-3 a:hover {
 		color:#8e918d;
@@ -476,7 +483,7 @@ nav {
 	color:#f9f9f9;
 	font: italic 14px/18px 'Share', cursive;
 	margin-top:-3px;
-	-webkit-text-stroke:1px rgba(249,249,249,0.6);
+	/*-webkit-text-stroke:1px rgba(249,249,249,0.6);*/
 }
 /*  Buttons */
 .button {
@@ -513,7 +520,7 @@ nav {
 	color:#9e6248;
 	font: italic 14px/21px 'Share', cursive;
 	text-transform: uppercase;
-	-webkit-text-stroke:1px rgba(249,249,249,0.6);
+	/*-webkit-text-stroke:1px rgba(249,249,249,0.6);*/
 }
 	.link-2:hover {
 		color:#ffffff;
@@ -623,7 +630,7 @@ dl strong {
 	font:14px/21px 'Share', cursive;
 	text-transform: uppercase;
 	color:#9e6248;
-	-webkit-text-stroke:1px rgba(249,249,249,0.6);
+	/*-webkit-text-stroke:1px rgba(249,249,249,0.6);*/
 }
 
 iframe {
@@ -635,6 +642,9 @@ iframe {
 /* PADDING */
 /*==========================================*/
 @media only screen and (min-width: 768px) and (max-width: 959px) {
+	.rt-block-0 {
+		display:block;
+	}
 	.rt-block-1 {
 		display:inline-block;
 	}
@@ -665,15 +675,17 @@ iframe {
 		display:none;
 	}
 	.col-1 {
-        width: 210px;
+        /*width: 210px;*/
 		margin-right:30px;
 	}
 	.col-2 {
-        width: 210px;
-        margin-left:30px;
+        /*width: 210px;*/
+        /*margin-left:30px;*/
+        margin-left:12px;
 	}
 	.col-3 {
-		width: 180px;
+		/*width: 180px;*/
+        width: 340px;
 	}
 	.col-3-ident-1 {
 		margin-right:20px;
@@ -839,6 +851,34 @@ iframe {
     height: 16px;
     width: 16px;
     cursor: pointer;
+}
+
+.alignjustify {
+	text-align:justify;
+}
+
+.roomNazca {
+    color: #ee7611;
+}
+
+.roomHuacachina {
+    color: #75e365;
+}
+
+.roomBallestas {
+    color: #0077b8;
+}
+
+.roomCahuachi {
+    color: #514d9b;
+}
+
+.roomMapi {
+    color: #c68500;
+}
+
+.roomSanjose {
+    color: #b77449;
 }
     
 @-webkit-keyframes slideDown {
