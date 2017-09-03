@@ -59,6 +59,7 @@ crashlytics-build.properties
 *.suo
 *.user
 *.sln.docstates
+*.vsspell
 
 # Build results
 

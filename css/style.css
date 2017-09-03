@@ -389,6 +389,7 @@ nav {
 .col-1 {
     /*width:380px;*/
 	width:410px;
+    max-width: 634px;
 	float:left;
 	margin-right:19px;
 }
@@ -406,6 +407,12 @@ nav {
 }
 .rt-img-3-1 {
 	margin-right:20px;
+}
+.rt-img-3-1[href=''] {
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    width: 201px;
 }
 .col-2 {
 	/*width:380px;*/
@@ -806,6 +813,9 @@ iframe {
 		width:165px;
 		margin-right:20px;
 	}
+    .rt-img-3-1[href=''] {
+        width: 165px;
+    }
 	.col-3 {
 		width: 180px;
 	}
@@ -866,11 +876,11 @@ iframe {
 }
 
 .roomBallestas {
-    color: #0077b8;
+    color: #64b3f8;
 }
 
 .roomMisti {
-    color: #514d9b;
+    color: #c997f2;
 }
 
 .roomMapi {
@@ -878,7 +888,7 @@ iframe {
 }
 
 .roomUros {
-    color: #b77449;
+    color: #ef7d45;
 }
     
 @-webkit-keyframes slideDown {
