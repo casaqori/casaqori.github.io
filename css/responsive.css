@@ -1,0 +1,429 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #rooms .block .btn-more-info {
+    padding: 10px 40px;
+  }
+}
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /*--
+    custom heading Start
+--*/
+  .heading {
+    font-size: 26px;
+  }
+  .heading span {
+    font-size: 32px;
+  }
+  .title {
+    text-align: left;
+  }
+  /*--
+    nav Start
+--*/
+  nav .block {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  nav .block .navbar-brand img {
+    height: 50px;
+    margin-top: -16px;
+  }
+
+  /*--
+    slider Start
+--*/
+  #slider .block h3 {
+    text-align: left;
+  }
+  #slider .block .owl-carousel img {
+    padding-right: 0px;
+    width: 95%;
+  }
+  .testimonials-img img {
+    max-height: 90px;
+  }
+  .testimonials-pp {
+    font-size: 13px;
+    line-height: 18px;
+    padding: 0;
+  }
+  .testimonials-pp:before {
+    font-size: 28px;
+  }
+  .testimonials-pp:after {
+    font-size: 28px;
+  }
+  .content-testimonials .sky-h5 {
+    font-size: 16px;
+  }
+  .content-testimonials .line {
+    font-size: 11px;
+    padding-left: 9px;
+    margin-left: 9px;
+  }
+  /*--
+    blog Start
+--*/
+  #rooms .block {
+    text-align: center;
+  }
+  #rooms .block ul {
+    padding-bottom: 40px;
+  }
+  #rooms .block ul li {
+    width: 100%;
+  }
+  #rooms .block ul li h3 {
+    padding: 0px 0px 25px;
+  }
+  #rooms .block ul li .room-img {
+    width: 40%;
+  }
+  #rooms .block ul li .content-left {
+    width: 60%;
+  }
+  #rooms .block ul li .room-img img {
+    width: 100%;
+  }
+  #rooms .block ul li .room-img-2 {
+    width: 40%;
+  }
+  #rooms .block ul li .content-right {
+    width: 60%;
+  }
+  #rooms .block ul li .room-img-2 img {
+    width: 100%;
+  }
+  #rooms .block ul li .content-left {
+    padding: 40px 20px 0;
+  }
+  #rooms .block ul li .content-right {
+    padding: 40px 20px 0;
+  }
+  /*--
+    price Start
+--*/
+  #price .block p {
+    padding: 30px 0 0;
+  }
+  #price .block .pricing-list {
+    text-align: left;
+  }
+  /*--
+    contact-us Start
+--*/
+  #contact-us {
+    padding: 60px 0 0;
+  }
+  #contact-us .block {
+    text-align: center;
+  }
+  #contact-us .block .title {
+    text-align: left;
+  }
+  #contact-us .block a {
+    padding: 15px 80px;
+    float: inherit;
+  }
+  /*--
+    footer Start
+--*/
+  #footer .block {
+    padding-bottom: 20px;
+  }
+  #footer .block h3 {
+    padding-bottom: 10px;
+  }
+  #footer .block .social-media-link ul li {
+    display: inline-block;
+    margin-right: 60px;
+    margin-bottom: 0;
+  }
+  /*--
+    footer-bottom Start
+--*/
+  #footer-bottom .block .navbar-nav {
+    float: inherit;
+    width: 70%;
+    margin: 0 auto;
+  }
+  #footer-bottom .block p {
+    text-align: center;
+    padding-top: 0px;
+  }
+}
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+@media only screen and (max-width: 767px) {
+  /*--
+    custom heading Start
+--*/
+  .heading {
+    font-size: 22px;
+  }
+  .heading span {
+    font-size: 28px;
+  }
+  /*--
+    custom heading Start
+--*/
+  .title {
+    text-align: left;
+  }
+  /*--
+    nav Start
+--*/
+  nav {
+    position: relative;
+  }
+  nav .block {
+    padding: 0;
+    /*
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
+    background: -o-linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
+    background: -moz-linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
+    background: linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
+    */
+  }
+  nav .block .navbar-brand img {
+    height: 50px;
+    margin-top: -16px;
+  }
+  nav .block .navbar-default .navbar-header {
+    /*nav .block*/
+    padding: 10px 0px 10px 0px;
+  }
+  nav .block .navbar-default .navbar-header .navbar-toggle {
+    border: none;
+  }
+  nav .block .navbar-default .navbar-header .navbar-toggle .icon-bar {
+    background: #e94c3d;
+  }
+  nav .block .navbar-default .navbar-header .navbar-toggle:focus {
+    background: none;
+  }
+  nav .block .navbar-default .navbar-header .navbar-toggle:active {
+    background: none;
+  }
+  nav .block .navbar-default .navbar-header .navbar-toggle:hover {
+    background: none;
+  }
+  nav .block .navbar-default .navbar-nav>li:first-child>a {
+    margin: 0px 14px;
+  }
+
+  /*--
+    slider Start
+--*/
+  #slider .block {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #slider .block .owl-carousel {
+    padding-top: 30px;
+    position: relative;
+  }
+  #slider .block .owl-carousel div img {
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+    padding-right: 0px;
+  }
+  .testimonials-img {
+    padding: 0;
+  }
+  .testimonials-img img {
+    max-height: 50px;
+  }
+  .content-testimonials {
+    padding: 0;
+  }
+  .testimonials-pp {
+    padding: 0;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .testimonials-pp:before {
+    font-size: 28px;
+  }
+  .testimonials-pp:after {
+    font-size: 28px;
+  }
+  .content-testimonials .sky-h5 {
+    font-size: 14px;
+  }
+  .content-testimonials .line {
+    font-size: 10px;
+    padding-left: 7px;
+    margin-left: 5px;
+  }
+  /*--
+    about-us Start
+--*/
+  #slider {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #about-us {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  #about-us .about-p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  /*--
+    custom title Start
+--*/
+  #title h2 {
+    font-size: 20px;
+  }
+  #title h2 span {
+    font-size: 25px;
+  }
+  /*--
+    blog Start
+--*/
+  #rooms .block ul {
+    padding-bottom: 30px;
+  }
+  #rooms .block ul li {
+    /*float: none;*/
+    width: 100%;
+    height: 100%;
+  }
+  #rooms .block ul li .room-img {
+    /*float: none;*/
+    /*width: 100%;*/
+  }
+  #rooms .block ul li .room-img img {
+    width: 100%;
+  }
+  #rooms .block ul li .room-img-2 {
+    /*float: none;*/
+    /*width: 100%;*/
+  }
+  #rooms .block ul li .room-img-2 img {
+    width: 100%;
+  }
+  #rooms .block ul li .content-right {
+    /*float: none;*/
+    /*width: 100%;*/
+    /*padding: 20px 35px;*/
+  }
+  #rooms .block ul li .content-right:after {
+    display: none;
+  }
+  #rooms .block ul li .content-left {
+    /*
+    float: none;
+    width: 100%;
+    padding: 20px 35px;
+    */
+  }
+  #rooms .block ul li .content-left:after {
+    display: none;
+  }
+  #rooms .block .btn-more-info {
+    padding: 10px 40px;
+  }
+  /*--
+    price Start
+--*/
+  #price .block p {
+    padding: 40px 0px 0px;
+  }
+  #price .block .pricing-list {
+    text-align: left;
+  }
+  #price .block .pricing-list ul li .item {
+    float: none;
+  }
+  #price .block .pricing-list ul li .item .item-title .border-bottom {
+    display: none;
+  }
+  #price .block .pricing-list ul li .item .item-title span {
+    padding-top: 10px;
+    display: block;
+    float: none;
+  }
+  #price .block .pricing-list .btn {
+    float: inherit;
+    padding: 28px 100px;
+  }
+  /*--
+    subscribe Start
+--*/
+  #subscribe .block h1 {
+    font-size: 30px;
+  }
+  #subscribe .block h1 span {
+    font-size: 25px;
+  }
+  #subscribe .block form .form-group .input-group {
+    width: 100%;
+  }
+  #subscribe .block form .form-group .input-group .form-control {
+    width: 100%;
+    background: #fff;
+    opacity: 0.9;
+    border: none;
+    height: 65px;
+    border-radius: 0px;
+    float: inherit;
+  }
+  #subscribe .block form .form-group .input-group .input-group-addon {
+    padding: 0px;
+    border: none;
+    background: none;
+    display: block;
+    margin-top: 20px;
+  }
+  /*--
+    contact-us Start
+--*/
+  #contact-us {
+    padding: 60px 0 0;
+  }
+  #contact-us .block a {
+    padding: 20px 80px;
+    width: 100%;
+    float: inherit;
+  }
+  /*--
+    footer Start
+--*/
+  #footer .block {
+    padding-bottom: 50px;
+  }
+  #footer .block .info ul li {
+    width: 100%;
+    margin-right: 0px;
+  }
+  #footer .block .social-media-link ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  /*--
+    footer-bottom Start
+--*/
+  #footer-bottom .block .navbar {
+    display: none;
+  }
+  #footer-bottom .block p {
+    text-align: center;
+    padding-top: 0px;
+  }
+}
