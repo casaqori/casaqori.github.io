@@ -1,1 +1,0 @@
-sitemap: http://casaqori.github.io/sitemap.xml
