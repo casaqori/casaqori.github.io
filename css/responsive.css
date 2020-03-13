@@ -310,6 +310,7 @@ px      68    160    252    */
   }
   #rooms .block ul li .room-img img {
     width: 100%;
+    height: 191px;
   }
   #rooms .block ul li .room-img-2 {
     /*float: none;*/
