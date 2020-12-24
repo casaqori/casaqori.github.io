@@ -284,6 +284,10 @@ px      68    160    252    */
     font-size: 14px;
     line-height: 22px;
   }
+  #about-us ul {
+    margin: 0 2em;
+    width: 94%;
+  }
   /*--
     custom title Start
 --*/
