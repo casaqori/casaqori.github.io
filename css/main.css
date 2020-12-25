@@ -315,11 +315,26 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   text-align: center;
 }
 
-#about-us .about-p {
+#about-us section {
+  padding-bottom: 60px;
+  text-align: left;
+}
+
+#about-us section p,
+#about-us section ul {
   color: #959595;
   font-size: 16px;
   line-height: 26px;
-  padding-bottom: 60px;
+}
+
+#about-us section span {
+  color: #FF5333;
+  line-height: 40px;
+}
+
+#about-us .post-title {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 #about-us .title {
@@ -327,6 +342,11 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 }
 
 #about-us ul {
+  list-style: unset;
+  margin: 0 1em;
+}
+
+#about-us .announcement ul {
   text-align: justify;
   list-style: unset;
   margin: 0 auto;
@@ -599,9 +619,9 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   margin-right: auto;
 }
 
-
-
-
+.emphasized {
+  color: #FF5333;
+}
 
 
 

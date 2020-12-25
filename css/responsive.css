@@ -280,11 +280,12 @@ px      68    160    252    */
     padding-top: 30px;
     padding-bottom: 70px;
   }
-  #about-us .about-p {
+  #about-us section p,
+  #about-us section ul {
     font-size: 14px;
     line-height: 22px;
   }
-  #about-us ul {
+  #about-us .announcement ul {
     margin: 0 1.5em;
     width: 90%;
   }
